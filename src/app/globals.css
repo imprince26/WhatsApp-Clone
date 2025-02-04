@@ -105,7 +105,6 @@
 	}
 }
 
-/* WE ADDED => DARK MODE THIN SCROLLBAR */
 @layer components {
 	::-webkit-scrollbar {
 		width: 8px;

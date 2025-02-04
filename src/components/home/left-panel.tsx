@@ -1,5 +1,5 @@
 "use client";
-import { ListFilter, Search } from "lucide-react";
+import { ListFilter, Search, Variable } from "lucide-react";
 import { Input } from "../ui/input";
 import ThemeSwitch from "./theme-switch";
 import Conversation from "./conversation";
@@ -41,7 +41,7 @@ const LeftPanel = () => {
       <div className="sticky top-0 bg-left-panel z-10">
         {/* Header */}
         <div className="flex justify-between bg-gray-primary p-3 items-center">
-          <UserButton />
+          <UserButton/>
 
           <div className="flex items-center gap-3">
             {isAuthenticated && <UserListDialog />}
